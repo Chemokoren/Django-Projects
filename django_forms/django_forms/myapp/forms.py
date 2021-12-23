@@ -28,7 +28,7 @@ class NameField(forms.MultiValueField):
 		fields =(
 			forms.CharField(),
 			forms.CharField()
-			# forms.CharField(validators=[RegexValidator(r'[a-zA-Z]+','Enter a valid first name(only characters)')]),
+			# forms.CharField(validators=[RegexValidator(r'[a-zA-Z]+','Enter a valid  first name(only characters)')]),
 			# forms.CharField(validators=[RegexValidator(r'[a-zA-Z]+','Enter a valid second name (only letters)')])
 			)
 		super().__init__(fields, *args, **kwargs)
